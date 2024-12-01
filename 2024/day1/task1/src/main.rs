@@ -18,7 +18,7 @@ fn calc_distance(a: &i32, b: &i32) -> i32 {
 }
 
 fn main() {
-    let lines = read_file("input.txt");
+    let lines = read_file("../input.txt");
 
     let mut historians1 = Vec::<i32>::new();
     let mut historians2 = Vec::<i32>::new();
